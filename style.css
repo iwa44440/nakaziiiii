@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{
+  max-width: 100%;
+  margin: 0;
+}
+main{
+  background-image: url(叫び.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+header{
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  background: rgb(255, 52, 52);
+  display: flex;
+  > div {
+    width: auto;
+    height: 11vh;
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    > p{
+      font-size: 7vw;
+      padding: auto;
+      margin: 0 auto;
+      font-weight: 900;
+      color: white;
+      -webkit-text-stroke-color: #000000;
+      -webkit-text-stroke-width: 2px;
+    }
+  }
+}
+.b1{
+  position: absolute;
+  top: 3vh;
+  left: 5vw;
+  z-index: 2;
+}
+.b2{
+  position: absolute;
+  bottom: 3vh;
+  right: 5vw;
+}
+.circle{
+  background-image:url(目がやばいなかじ.jpg) ;
+  height: 20vh;
+  width: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-size: cover;
+  animation:popopop 20s infinite linear; 
+}
+@keyframes rotation{
+  0%{transform: rotate(0);}
+  100%{transform: rotate(360deg);}
+
+}
+@keyframes popopop{
+  0%{ transform: translate(0%,0%) rotate(0);}
+  25%{ transform: translate(400%,0%) rotate(360deg);}
+  50%{ transform: translate(0%,400%) rotate(720deg);}
+  75%{ transform: translate(400%,400%) rotate(1080deg); }
+  100%{ transform: translate(0%,0%) rotate(1440deg);}
+
+}
