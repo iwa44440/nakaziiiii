@@ -58,8 +58,8 @@ header{
 @keyframes popopop{
   0%{ transform: translate(0%,0%) rotate(0);}
   10%{ transform: translate(300%,0%) rotate(360deg);}
-  20%{ transform: translate(0%,300%) rotate(720deg);}
-  30%{ transform: translate(300%,300%) rotate(1080deg); }
+  17%{ transform: translate(0%,300%) rotate(720deg);}
+  27%{ transform: translate(300%,300%) rotate(1080deg); }
   100%{ transform: translate(0%,0%) rotate(1440deg);}
 
 }
