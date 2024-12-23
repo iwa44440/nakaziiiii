@@ -48,7 +48,7 @@ header{
   aspect-ratio: 1/1;
   border-radius: 50%;
   background-size: cover;
-  animation:popopop 20s infinite linear; 
+  animation:popopop 10s infinite linear; 
 }
 @keyframes rotation{
   0%{transform: rotate(0);}
@@ -57,9 +57,9 @@ header{
 }
 @keyframes popopop{
   0%{ transform: translate(0%,0%) rotate(0);}
-  25%{ transform: translate(400%,0%) rotate(360deg);}
-  50%{ transform: translate(0%,400%) rotate(720deg);}
-  75%{ transform: translate(400%,400%) rotate(1080deg); }
+  10%{ transform: translate(300%,0%) rotate(360deg);}
+  25%{ transform: translate(0%,300%) rotate(720deg);}
+  35%{ transform: translate(300%,300%) rotate(1080deg); }
   100%{ transform: translate(0%,0%) rotate(1440deg);}
 
 }
